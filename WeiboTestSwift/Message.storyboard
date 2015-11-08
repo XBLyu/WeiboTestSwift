@@ -4,7 +4,7 @@
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
     </dependencies>
     <scenes>
-        <!--Message Table View Controller-->
+        <!--消息-->
         <scene sceneID="4dA-dT-hsD">
             <objects>
                 <tableViewController id="Hwh-zK-L1E" customClass="MessageTableViewController" customModule="WeiboTestSwift" customModuleProvider="target" sceneMemberID="viewController">
@@ -25,7 +25,7 @@
                             <outlet property="delegate" destination="Hwh-zK-L1E" id="pJ7-RX-1ye"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" id="Wg1-YC-TTm"/>
+                    <navigationItem key="navigationItem" title="消息" id="Wg1-YC-TTm"/>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="B8e-gk-fYn" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -34,6 +34,7 @@
         <!--Navigation Controller-->
         <scene sceneID="OtE-uf-jr7">
             <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="3km-2Z-R1w" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="mEc-v9-lCR" sceneMemberID="viewController">
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="9xT-We-Buf">
@@ -45,7 +46,6 @@
                         <segue destination="Hwh-zK-L1E" kind="relationship" relationship="rootViewController" id="hG4-r7-NqZ"/>
                     </connections>
                 </navigationController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="3km-2Z-R1w" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="604" y="-10"/>
         </scene>

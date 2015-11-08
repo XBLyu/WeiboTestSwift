@@ -11,6 +11,9 @@
 		046DB5B01BDEAA2200C2AEDC /* ProfileTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046DB5AF1BDEAA2200C2AEDC /* ProfileTableViewController.swift */; };
 		046DB5B21BDEAA3000C2AEDC /* Profile.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 046DB5B11BDEAA3000C2AEDC /* Profile.storyboard */; };
 		046DB5B41BDEDDB700C2AEDC /* MainTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046DB5B31BDEDDB700C2AEDC /* MainTabBar.swift */; };
+		049B86051BEF59A30032C0DA /* BaseTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 049B86041BEF59A30032C0DA /* BaseTableViewController.swift */; };
+		049B86071BEF5AFC0032C0DA /* VisitorLoginView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 049B86061BEF5AFC0032C0DA /* VisitorLoginView.xib */; };
+		049B86091BEF6D1C0032C0DA /* VisitorLoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 049B86081BEF6D1C0032C0DA /* VisitorLoginView.swift */; };
 		04CFB3D61BDE99EA002A6160 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CFB3D51BDE99EA002A6160 /* AppDelegate.swift */; };
 		04CFB3DB1BDE99EA002A6160 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04CFB3D91BDE99EA002A6160 /* Main.storyboard */; };
 		04CFB3DD1BDE99EA002A6160 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04CFB3DC1BDE99EA002A6160 /* Images.xcassets */; };
@@ -39,6 +42,9 @@
 		046DB5B11BDEAA3000C2AEDC /* Profile.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Profile.storyboard; sourceTree = "<group>"; };
 		046DB5B31BDEDDB700C2AEDC /* MainTabBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainTabBar.swift; sourceTree = "<group>"; };
 		046DB5B51BDEE08D00C2AEDC /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		049B86041BEF59A30032C0DA /* BaseTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseTableViewController.swift; sourceTree = "<group>"; };
+		049B86061BEF5AFC0032C0DA /* VisitorLoginView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = VisitorLoginView.xib; sourceTree = "<group>"; };
+		049B86081BEF6D1C0032C0DA /* VisitorLoginView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VisitorLoginView.swift; sourceTree = "<group>"; };
 		04CFB3D01BDE99EA002A6160 /* WeiboTestSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WeiboTestSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		04CFB3D41BDE99EA002A6160 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		04CFB3D51BDE99EA002A6160 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -76,7 +82,9 @@
 		046DB5B61BDEE15100C2AEDC /* Other */ = {
 			isa = PBXGroup;
 			children = (
-				04CFB3D51BDE99EA002A6160 /* AppDelegate.swift */,
+				049B86041BEF59A30032C0DA /* BaseTableViewController.swift */,
+				049B86061BEF5AFC0032C0DA /* VisitorLoginView.xib */,
+				049B86081BEF6D1C0032C0DA /* VisitorLoginView.swift */,
 			);
 			name = Other;
 			sourceTree = "<group>";
@@ -179,6 +187,7 @@
 			children = (
 				046DB5AD1BDEA76100C2AEDC /* MainTabBarController.swift */,
 				04CFB3D91BDE99EA002A6160 /* Main.storyboard */,
+				04CFB3D51BDE99EA002A6160 /* AppDelegate.swift */,
 				046DB5B31BDEDDB700C2AEDC /* MainTabBar.swift */,
 			);
 			name = Main;
@@ -282,6 +291,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				049B86071BEF5AFC0032C0DA /* VisitorLoginView.xib in Resources */,
 				04CFB4071BDEA30B002A6160 /* HomePage.storyboard in Resources */,
 				04CFB3DB1BDE99EA002A6160 /* Main.storyboard in Resources */,
 				04CFB40B1BDEA35F002A6160 /* Message.storyboard in Resources */,
@@ -307,10 +317,12 @@
 			files = (
 				046DB5B01BDEAA2200C2AEDC /* ProfileTableViewController.swift in Sources */,
 				04CFB3D61BDE99EA002A6160 /* AppDelegate.swift in Sources */,
+				049B86051BEF59A30032C0DA /* BaseTableViewController.swift in Sources */,
 				046DB5B41BDEDDB700C2AEDC /* MainTabBar.swift in Sources */,
 				04CFB4091BDEA355002A6160 /* MessageTableViewController.swift in Sources */,
 				04CFB40D1BDEA37F002A6160 /* DiscoverTableViewController.swift in Sources */,
 				046DB5AE1BDEA76100C2AEDC /* MainTabBarController.swift in Sources */,
+				049B86091BEF6D1C0032C0DA /* VisitorLoginView.swift in Sources */,
 				04CFB4041BDEA260002A6160 /* HomePageTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

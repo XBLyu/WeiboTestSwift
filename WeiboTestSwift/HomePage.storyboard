@@ -4,7 +4,7 @@
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
     </dependencies>
     <scenes>
-        <!--Home Page Table View Controller-->
+        <!--首页-->
         <scene sceneID="2xU-ES-9dg">
             <objects>
                 <tableViewController id="00D-0V-bzl" customClass="HomePageTableViewController" customModule="WeiboTestSwift" customModuleProvider="target" sceneMemberID="viewController">
@@ -25,7 +25,7 @@
                             <outlet property="delegate" destination="00D-0V-bzl" id="1kV-ag-3GT"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" id="t2R-Iq-Qh8"/>
+                    <navigationItem key="navigationItem" title="首页" id="t2R-Iq-Qh8"/>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="cQb-Sp-W9z" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -34,6 +34,7 @@
         <!--Navigation Controller-->
         <scene sceneID="IsC-Qf-d1f">
             <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="WVS-3n-Y2a" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="JgB-HH-fSG" sceneMemberID="viewController">
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="s1W-73-pJS">
@@ -45,7 +46,6 @@
                         <segue destination="00D-0V-bzl" kind="relationship" relationship="rootViewController" id="bPq-L0-Oxf"/>
                     </connections>
                 </navigationController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="WVS-3n-Y2a" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="565" y="-990"/>
         </scene>

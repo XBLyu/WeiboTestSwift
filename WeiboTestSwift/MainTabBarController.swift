@@ -52,7 +52,10 @@ class MainTabBarController: UITabBarController {
         /**
         *  设置该控制器在TabBar上显示的相关属性
         */
-        nav.title = title
+        //－－－－－－－－－－－－－－－－－－－－－－－－修改不了
+//        nav.navigationItem.title = title
+//        println(nav.navigationItem.title)
+        nav.tabBarItem.title = title
         nav.tabBarItem.image = UIImage(named: iconName)
         nav.tabBarItem.selectedImage = UIImage(named: iconName + "_highlighted")
         /**
