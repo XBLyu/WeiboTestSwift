@@ -8,7 +8,18 @@
 
 import UIKit
 
-
+/**
+*  代理方法的实现
+*/
+extension BaseTableViewController: VisitorLoginViewDelegate {
+    func didRegisterButtonClicked() {
+        println(__FUNCTION__,__LINE__);
+    }
+    
+    func didLoginButtonClicked() {
+        println(__FUNCTION__,__LINE__);
+    }
+}
 
 class BaseTableViewController: UITableViewController {
     
@@ -40,16 +51,6 @@ class BaseTableViewController: UITableViewController {
         navigationItem.leftBarButtonItem = UIBarButtonItem(title: "注册", style: UIBarButtonItemStyle.Done, target: self, action: "didRegisterButtonClicked")
         navigationItem.rightBarButtonItem = UIBarButtonItem(title: "登录", style: UIBarButtonItemStyle.Done, target: self, action: "didLoginButtonClicked")
         
-    }
-}
-
-extension BaseTableViewController: VisitorLoginViewDelegate {
-    func didRegisterButtonClicked() {
-        println(__FUNCTION__);
-    }
-    
-    func didLoginButtonClicked() {
-        println(__FUNCTION__);
     }
 }
 

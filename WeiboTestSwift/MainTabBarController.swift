@@ -21,7 +21,7 @@ class MainTabBarController: UITabBarController {
     
     
     func composeButtonClick() {
-        println(__FUNCTION__)
+        println(__FUNCTION__,__LINE__)
     }
     
     /**

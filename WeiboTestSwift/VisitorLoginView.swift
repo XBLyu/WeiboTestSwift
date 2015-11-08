@@ -48,10 +48,10 @@ class VisitorLoginView: UIView {
         // 首页情况下：大图标显示，并呈现默认图片
         bigIcon.hidden = !isHome
         if isHome {
-            bigIcon.image = UIImage(named: iconName)
             if (smallIcon.layer.animationForKey("smallIconRotationAnim") == nil) {
                 startAnimation()
             }
+            bigIcon.image = UIImage(named: iconName)
         } else {
             smallIcon.image = UIImage(named: iconName)
         }

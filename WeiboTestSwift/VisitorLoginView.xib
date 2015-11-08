@@ -14,7 +14,7 @@
                     <rect key="frame" x="101" y="247" width="175" height="175"/>
                 </imageView>
                 <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="visitordiscover_feed_mask_smallicon" translatesAutoresizingMaskIntoConstraints="NO" id="JUY-gc-cNq">
-                    <rect key="frame" x="0.0" y="0.0" width="375" height="557"/>
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="587"/>
                 </imageView>
                 <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="visitordiscover_feed_image_house" translatesAutoresizingMaskIntoConstraints="NO" id="jIl-kZ-CCt">
                     <rect key="frame" x="141" y="289" width="94" height="90"/>
@@ -75,12 +75,12 @@
                 <constraint firstItem="JUY-gc-cNq" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="K8L-hi-Lsd"/>
                 <constraint firstItem="fCR-CZ-X6j" firstAttribute="leading" secondItem="PTh-gv-CRv" secondAttribute="leading" id="RKB-uH-Zb8"/>
                 <constraint firstAttribute="centerX" secondItem="jIl-kZ-CCt" secondAttribute="centerX" id="X60-IL-gJk"/>
+                <constraint firstAttribute="bottom" secondItem="JUY-gc-cNq" secondAttribute="bottom" constant="80" id="cTx-8T-U3r"/>
                 <constraint firstItem="ZHk-0j-zf3" firstAttribute="trailing" secondItem="PTh-gv-CRv" secondAttribute="trailing" id="f00-mg-Ssj"/>
                 <constraint firstItem="jIl-kZ-CCt" firstAttribute="centerX" secondItem="PTh-gv-CRv" secondAttribute="centerX" id="o5w-fX-TzI"/>
                 <constraint firstItem="PTh-gv-CRv" firstAttribute="top" secondItem="nFa-Re-NdA" secondAttribute="bottom" constant="8" id="pyv-D4-3Zj"/>
                 <constraint firstAttribute="centerY" secondItem="jIl-kZ-CCt" secondAttribute="centerY" id="uz9-vd-ux3"/>
                 <constraint firstItem="JUY-gc-cNq" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="van-2a-a0t"/>
-                <constraint firstAttribute="bottom" secondItem="JUY-gc-cNq" secondAttribute="bottom" constant="110" id="wrP-YB-Vul"/>
                 <constraint firstItem="ZHk-0j-zf3" firstAttribute="top" secondItem="PTh-gv-CRv" secondAttribute="bottom" constant="8" id="wtK-0d-nej"/>
             </constraints>
             <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
